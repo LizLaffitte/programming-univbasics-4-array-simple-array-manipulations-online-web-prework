@@ -9,3 +9,7 @@ end
 def using_pop(array)
   removed = array.pop 
 end
+
+def pop_with_args(array)
+  removed = array.pop(2)
+end
